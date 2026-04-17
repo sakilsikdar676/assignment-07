@@ -38,7 +38,7 @@ const ErrorElement = () => {
             <h1 className="text-[140px] md:text-[220px] font-black text-[#1A1F2B] leading-none tracking-tighter">
               404
             </h1>
-            <div className="w-full h-[6px] bg-[#1A1F2B] -mt-1"></div>
+            <div className="w-full h-1.5 bg-[#1A1F2B] -mt-1"></div>
           </div>
 
           
