@@ -5,7 +5,7 @@ import AllFriends from './HomePage/AllFriends';
 
 const Home = ({friendsDatas}) => {
     
-    console.log(friendsDatas);
+    
 
     const friendsData = use(friendsDatas);
     

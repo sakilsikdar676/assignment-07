@@ -11,6 +11,7 @@ import FriendsDetails from './components/FriendDetails'
 
 import { Bounce, ToastContainer } from 'react-toastify';
 import FriendsContextProvider from './context/FriendsContextProvider'
+import ErrorElement from './components/ErrorElement'
 
 const friendsDatas = fetch('../data.json').then(res => res.json());
 
@@ -23,9 +24,9 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home
-        friendsDatas={friendsDatas}
+          friendsDatas={friendsDatas}
         />,
-        
+
       },
       {
         path: '/TimeLine',
@@ -38,11 +39,12 @@ const router = createBrowserRouter([
       {
         path: '/FriendDetails/:id',
         element: <FriendsDetails
-        friendsDatas={friendsDatas}
+          friendsDatas={friendsDatas}
         />,
-        
+
       },
     ],
+    errorElement: <ErrorElement />
 
 
   },
@@ -54,25 +56,25 @@ const router = createBrowserRouter([
 
 
 createRoot(document.getElementById('root')).render(
- <StrictMode>
-      
-  <FriendsContextProvider>
-     <RouterProvider router={router} />,
-    <ToastContainer
-position="top-right"
-autoClose={5000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick={false}
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
-transition={Bounce}
-/>
+  <StrictMode>
 
-  </FriendsContextProvider>
+    <FriendsContextProvider>
+      <RouterProvider router={router} />,
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
+
+    </FriendsContextProvider>
 
 
   </StrictMode>,
