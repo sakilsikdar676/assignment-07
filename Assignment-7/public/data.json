@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Siddiqua",
+    "picture": "https://randomuser.me/api/portraits/women/11.jpg",
+    "email": "ayesha.s@college.edu",
+    "days_since_contact": 2,
+    "status": "on_track",
+    "tags": ["college", "bestie"],
+    "bio": "HSC candidate. Loves reading storybooks and photography.",
+    "goal": 7,
+    "next_due_date": "2026-04-21",
+    "call_icon": "https://example.com/icons/call.svg"
+  },
+  {
+    "id": 2,
+    "name": "Meherun Nisa",
+    "picture": "https://randomuser.me/api/portraits/women/24.jpg",
+    "email": "nisa.meher@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["childhood", "neighbor"],
+    "bio": "19 years old. Exploring new cafes and fashion trends.",
+    "goal": 10,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 3,
+    "name": "Sarah Islam",
+    "picture": "https://randomuser.me/api/portraits/women/32.jpg",
+    "email": "sarah_i@outlook.com",
+    "days_since_contact": 5,
+    "status": "on_track",
+    "tags": ["gaming", "duo"],
+    "bio": "Age 18. My regular Free Fire duo partner. Pro sniper!",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Tania Akter",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "tania_cute@example.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["school", "art"],
+    "bio": "Artist and dreamer. We used to sit on the same bench in school.",
+    "goal": 15,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 5,
+    "name": "Liza Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/50.jpg",
+    "email": "liza_dev@yahoo.com",
+    "days_since_contact": 1,
+    "status": "on_track",
+    "tags": ["coding", "learning"],
+    "bio": "Age 19. Learning React together. Very bright student.",
+    "goal": 3,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 6,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/61.jpg",
+    "email": "nusrat.j@st.edu.bd",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["relative", "cousin"],
+    "bio": "Fun-loving cousin. Currently in her first year of university.",
+    "goal": 30,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 7,
+    "name": "Priya Das",
+    "picture": "https://randomuser.me/api/portraits/women/72.jpg",
+    "email": "priya.dance@art.com",
+    "days_since_contact": 8,
+    "status": "on_track",
+    "tags": ["dance", "creative"],
+    "bio": "Classical dancer and content creator. Age 20.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Sumaiya Khan",
+    "picture": "https://randomuser.me/api/portraits/women/85.jpg",
+    "email": "sumaiya.k@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["travel", "vlogger"],
+    "bio": "Loves mountains. Always planning for the next tour.",
+    "goal": 10,
+    "next_due_date": "2026-04-14"
+  },
+  {
+    "id": 9,
+    "name": "Riya Moni",
+    "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+    "email": "riya_moni@outlook.com",
+    "days_since_contact": 3,
+    "status": "on_track",
+    "tags": ["music", "hobby"],
+    "bio": "Age 17. Plays guitar and has a very sweet voice.",
+    "goal": 5,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 10,
+    "name": "Fariha Islam",
+    "picture": "https://randomuser.me/api/portraits/women/15.jpg",
+    "email": "fariha_i@school.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["old friend"],
+    "bio": "Moved to another city. We used to play together in childhood.",
+    "goal": 30,
+    "next_due_date": "2026-02-15"
+  }
+]
