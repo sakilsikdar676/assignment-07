@@ -20,20 +20,20 @@ const Timeline = () => {
             {
                 callFriend.length === 0 && textFriend.length === 0 && videocallFriend.length === 0 ?
 
-                    <div className="flex flex-col items-center justify-center min-h-[400px] p-10 mt-10 text-center">
+                    <div className="flex flex-col items-center justify-center min-h-100 p-10 mt-10 text-center">
 
-                        {/* Funny Decorative Element */}
+                        
                         <div className="relative mb-8">
                             <div className="absolute inset-0 bg-emerald-200 rounded-full blur-3xl opacity-30 animate-pulse"></div>
                             <div className="relative bg-white p-8 rounded-3xl shadow-2xl border-2 border-dashed border-emerald-100">
                                 <span className="text-8xl block animate-bounce">🏜️</span>
                             </div>
-                            {/* Floating Small Icons */}
+                         
                             <span className="absolute -top-4 -right-4 text-3xl animate-spin-slow">💨</span>
                             <span className="absolute -bottom-2 -left-6 text-2xl opacity-50">🦗</span>
                         </div>
 
-                        {/* Main Text Section */}
+                       
                         <div className="max-w-md">
                             <h2 className="text-5xl md:text-6xl font-black text-[#1a4d40] mb-4 tracking-tighter">
                                 No Timeline <br />
@@ -45,7 +45,7 @@ const Timeline = () => {
                                 Kono chinta nei, ekhon-i kauke ekta call diye history banay felo!"
                             </p>
 
-                            {/* Funny Indicator */}
+                            
                             <div className="mt-8 flex items-center justify-center gap-2 text-sm font-bold text-gray-400 uppercase tracking-widest">
                                 <span className="relative flex h-3 w-3">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>

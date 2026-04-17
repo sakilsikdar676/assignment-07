@@ -1,11 +1,8 @@
 import { useParams } from "react-router";
-
-
 import { FiArchive, FiPhoneCall } from "react-icons/fi";
 import { MdOutlineDeleteForever, MdOutlineNotificationsPaused, MdOutlineTextsms } from "react-icons/md";
 import { IoVideocamOutline } from "react-icons/io5";
 import { useContext } from "react";
-
 import { toast } from "react-toastify";
 import useFriendsdata from "../Hooks/useFriendsdata";
 import { FriendsContext } from "../context/friendsContext";
@@ -145,7 +142,7 @@ const {callFriend,setCallFriend,textFriend,setTextFriend,videocallFriend,setVide
 
                 <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 text-center">
                   <h2 className="text-3xl font-bold text-[#1a4d40]">
-                    {/* {expectedfriend?.next_due_date} */}
+                  
                     {new Date().toLocaleDateString("en-US", {
                       month: "short",
                       day: "numeric",
