@@ -10,7 +10,16 @@ Built with a focus on user experience, **KeenKeeper** allows you to log calls, t
 
 ---
 
+## 🛠️ Tech Stack
 
+| Tool | Usage |
+| :--- | :--- |
+| **⚛️ React.js** | Core Frontend Framework |
+| **🚦 React Router** | Client-side Routing |
+| **🎨 Tailwind CSS** | Styling & Responsive Layouts |
+| **📊 Recharts** | Data Visualization & Analytics |
+| **📦 Context API** | Global State Management |
+| **✨ React Icons** | Modern UI Iconography |
 
 ---
 
